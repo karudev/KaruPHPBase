@@ -1,0 +1,5 @@
+#Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /karu-php-base/
+RewriteRule ^([a-zA-Z]+)/([a-zA-Z]+)$  index.php?controller=$1&action=$2  [QSA]
