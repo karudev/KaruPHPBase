@@ -1,2 +1,2 @@
-KaruTourisme
+KaruPHPBase
 =============
